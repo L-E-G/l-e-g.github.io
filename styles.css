@@ -100,6 +100,11 @@ body {
     position: relative;
 }
 
+#content {
+    max-width: 600px;
+    margin: auto;
+}
+
 #overview {
     font-size: 25px;
 }
