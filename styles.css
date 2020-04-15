@@ -82,11 +82,11 @@ body {
 }
 
 #gh-link {
-    margin: auto;
-    width: 168px;
+    text-align: center;
 }
 
 #gh-link a {
+    display: inline-block;
     text-decoration: none;
     color: black;
 }
