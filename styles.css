@@ -81,23 +81,26 @@ body {
     text-align: center;
 }
 
-#gh-link {
+#gh-org-link {
     text-align: center;
 }
 
-#gh-link a {
-    display: inline-block;
+.gh-link {
+    text-align: center;
+}
+
+.gh-link {
+    height: 20px;
+    line-height: 20px;
     text-decoration: none;
     color: black;
+    font-size: 16px;
 }
 
-#gh-link img {
+.gh-link img {
     width: 20px;
-}
-
-#gh-link span {
-    top: -3px;
     position: relative;
+    top: 3px;
 }
 
 #content {
@@ -109,6 +112,19 @@ body {
     font-size: 25px;
 }
 
-#links a {
+.link-item {
     font-size: 30px;
+}
+
+.gh-repo-link {
+    position: relative;
+    top: -3px;
+}
+
+.gh-repo-link::before {
+    content: "( ";
+}
+
+.gh-repo-link::after {
+    content: " Repository )";
 }
